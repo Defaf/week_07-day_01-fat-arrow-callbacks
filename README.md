@@ -83,7 +83,7 @@ const isPositive = num => num > 0
 
 ### Fat Arrow Lab
 
-Complete the lab in [fat_arrow_lab.js](fat_arrow_lab.js).
+Complete the lab in [exercises/fat_arrow_lab.js](exercises/fat_arrow_lab.js).
 
 ## Callbacks
 
@@ -165,6 +165,8 @@ From the MDN documentation:
 This means that `forEach` is a poor choice for an array operation that may
 terminate early.
 
+Complete the exercise in [exercises/for-each.js](exercises/for-each.js).
+
 #### Code along: using `map`
 
 The
@@ -174,6 +176,8 @@ elements of the new array are set to the return value of the callback passed to
 `map` invoked with the corresponding element from the original array as its
 argument (e.g. `newArray[i] = callback(array[i])`).  The array `map` is called
 upon is **not** mutated.
+
+Complete the exercise in [exercises/map.js](exercises/map.js).
 
 #### Lab: using `filter`
 
@@ -188,6 +192,8 @@ every element in the original array.
 
 Callbacks passed to `filter` should be predicate functions.
 
+Complete the exercise in [exercises/filter.js](exercises/filter.js).
+
 ### Processing a subset of the array elements
 
 #### Demo: using `findIndex`
@@ -200,12 +206,16 @@ callback returns true.
 Why do we need `findIndex`?  Why not just use
 [indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)?
 
+Complete the exercise in [exercises/find-index.js](exercises/find-index.js).
+
 #### Code along: using `find`
 
 The
 [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 method returns the first element in the array for which the callback returns
 true.
+
+Complete the exercise in [exercises/find.js](exercises/find.js).
 
 #### Code along: using `some`
 
@@ -215,6 +225,8 @@ method return true if the callback returns `true` for any element of the array.
 
 Callbacks passed to `some` should be predicate functions.
 
+Complete the exercise in [exercises/some.js](exercises/some.js).
+
 #### Lab: using `every`
 
 The [every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
@@ -223,6 +235,8 @@ used for this should only return `true` or `false`.  This type of function is
 often called a predicate.
 
 Callbacks passed to `every` should be predicate functions.
+
+Complete the exercise in [exercises/every.js](exercises/every.js).
 
 ### Processing all array elements with an accumulator
 
@@ -236,7 +250,11 @@ method returns a single value from operating on all the values in the array.  It
 The key to **using** `reduce` properly is to methodically walk-through the
 "How reduce works" section at the above link.
 
+Complete the exercise in [exercises/reduce.js](exercises/reduce.js).
+
 ### Additional Labs: Dive deeper and build your own array iteration methods
+
+Complete these exercises in [exercises/challenge.js](exercises/challenge.js).
 
 #### Lab: Adding functionality - count
 
