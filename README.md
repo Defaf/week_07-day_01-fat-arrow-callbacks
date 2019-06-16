@@ -280,3 +280,10 @@ what `some` does.  HINT:  use `findIndex` method
 
 Write your own `myEvery` method that accomplishes
 what `every` does.  HINT:  can we use `findIndex` or `some` method?
+
+## Additional Resources 
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- https://www.w3schools.com/js/js_array_iteration.asp
+- https://www.digitalocean.com/community/tutorials/how-to-use-array-methods-in-javascript-iteration-methods
+- https://www.youtube.com/watch?v=Urwzk6ILvPQ
+- [Array Methods Explorer](https://codepen.io/sdras/details/gogVRX)
