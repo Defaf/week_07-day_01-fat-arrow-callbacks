@@ -1,5 +1,13 @@
 # Week 07 Day 01 - Fat Arrow Callbacks
 
+## Objectives
+
+By the end of this talk, developers should be able to:
+
+- Convert function expressions to fat arrow functions
+- Define callback functions for use with array methods
+- Invoke array methods and pass callback functions as the argument
+
 ## Arrow Functions
 
 We frequently use `arrow` (sometimes referred to as `fat arrow`) functions as
