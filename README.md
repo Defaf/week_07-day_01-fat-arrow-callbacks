@@ -72,3 +72,7 @@ const isPositive = (num) => num > 0
 // Parenthesis aren't required for a single parameter
 const isPositive = num => num > 0
 ```
+
+### Fat Arrow Lab
+
+Complete the lab in [fat_arrow_lab.js](fat_arrow_lab.js).
