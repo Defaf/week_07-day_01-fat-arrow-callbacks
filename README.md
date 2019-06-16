@@ -216,6 +216,8 @@ often called a predicate.
 
 Callbacks passed to `every` should be predicate functions.
 
+### Processing all array elements with an accumulator
+
 #### Code along: using `reduce`
 
 The
