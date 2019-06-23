@@ -11,3 +11,5 @@ for (let i = 0; i < developers.length; i++) {
 
 // 1.  Iterate using forEach method
 // DEMO CODE GOES HERE
+
+developers.forEach(name => console.log ('Hello '+ name));
