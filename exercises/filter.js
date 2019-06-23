@@ -27,3 +27,10 @@ const fridge = // eslint-disable-line no-unused-vars
 ]
 
 // LAB CODE GOES HERE
+const isRotten = food => food.daysInFridge > 20 
+const rottenFood = fridge.filter(isRotten)
+
+// Hell, World Team Solution 
+const isRotten = num => num > 20
+const exp = fridge.filter( key => isRotten(key.daysInFridge))
+console.log(exp)
