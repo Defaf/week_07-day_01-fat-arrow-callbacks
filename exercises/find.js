@@ -25,3 +25,6 @@ const fridge = // eslint-disable-line no-unused-vars
   ]
 
 // CODE ALONG CODE GOES HERE
+const isRotten = num => num > 20
+const exp = fridge.find( key => isRotten(key.daysInFridge))
+console.log(exp)
