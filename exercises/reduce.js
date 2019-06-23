@@ -17,7 +17,19 @@ console.log(largest)
 
 // 2.  Find the largest of all elements in an array using named arrow function
 // CODE ALONG CODE GOES HERE
-
+// HELLO, WORLD TEAM SOLUTION 
+/*
+  - max= will take the first number by defualt
+  - current will take the second number by defualt  
+ */
+const largest = nums.reduce((max,current) => {
+  if (max > current) 
+    return max 
+  else  
+    return current 
+ }
+)
+console.log (largest)
 // 3.  Find the total number of days in fridge for all the food in the fridge
 // using anonymous arrow function
 // start the count with 0
@@ -32,3 +44,4 @@ const fridge = // eslint-disable-line no-unused-vars
 ]
 
 // CODE ALONG CODE GOES HERE
+fridge.reduce((sum, current) => sum + current.daysInFridge, 0 )
