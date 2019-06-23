@@ -20,3 +20,6 @@ developers.forEach(developer => { developerGreetings.push('Hello ' + developer) 
 // 1.  Iterate using .map to create an array of 'Hello <name>' for each student
 // Original array unchanged
 // CODE ALONG CODE GOES HERE
+developerGreetings = developers.map (developer => 'Hello '+developer);
+developerGreetings = developers.map(developer => `HELLO ${developer}`); 
+console.log(developerGreetings);
